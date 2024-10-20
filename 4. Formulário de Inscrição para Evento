@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<style>
+
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3d9ed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(241, 172, 172);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(245, 245, 245, 0.5);
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            background-color: #f518c5;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #f518c5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #ff5be9;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #ff3f9d;
+        }
+
+        fieldset {
+            border: none;
+            padding: 10px;
+            background-color: #ddaefa;
+            border-radius: 10px;
+        }
+
+        .foto-preview {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+        <fieldset>
+        <legend> Formulário de Inscrição para Evento </legend>
+<h1>Inscrição Online - Festival de Criatividade 2024
+🌟 Bem-vindo ao Festival de Criatividade 2024! 🌟</h1>
+          <p>
+
+Prepare-se para um final de semana repleto de aprendizado, inspiração e muita criatividade!<br>Inscreva-se agora e faça parte deste evento único!
+<br><br>
+📅 Datas: 15 e 16 de junho de 2024<br>
+🕙 Horário: Das 10h às 18h<br>
+📍 Local: Parque da Inovação, Rua das Artes, 123 - Cidade Criativa
+
+</p>
+          <img src= https://forbes.com.br/wp-content/uploads/2024/05/bv-rio2c_maio25.jpg alt= "foto_do_evento_de_criatividade" width= "400" height= "200" >
+
+<form>
+    <label>Nome completo:</label>
+    <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
+
+    <label>E-mail:</label>
+    <input type="email" name="emailpessoal" placeholder="Digite aqui seu e-mail" required><br><br>
+
+     <label for="intel"> Telefone: </label>
+   <input type= "tel" name= "tel" id="tel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="Digite aqui seu telefone" required>
+
+   <label>Opções de
+Workshops Disponíveis:</label><br>
+<input type="checkbox" name="workshop" value="pintura"> Pintura Acrílica<br>
+<input type="checkbox" name="workshop" value="fotografia"> Fotografia Digital<br>
+<input type="checkbox" name="workshop" value="programacao"> Programação para Iniciantes<br>
+<input type="checkbox" name="workshop" value="culinaria"> Culinária Vegana<br>
+
+    <label> Meio de Transporte:</label>
+    <select id="transporte" name="transporte">
+        <option value="aviao">Avião</option>
+        <option value="onibus">Ônibus</option>
+        <option value="carro">Carro</option>
+    </select>
+
+    <label> Necessidades Especiais:</label>
+    <textarea id="necessidades" name="necessidades" rows="4"placeholder="Digite aqui suas necessidades especiais" required ></textarea>
+
+    <button type="submit">Enviar</button><br><br>
+  
+    <button type="reset">Resetar</button>
+  
+  </fieldset>
+  </form>
+</body>
+
+</html>
