@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<style>
+    p {
+      color: #BE398D
+    }
+
+    h1 {
+      color: #f518c5;
+      font-size: 30px;
+      
+    }
+  h2 {
+      color: #fff;
+      font-size: 20px;
+      
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3d9ed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(241, 172, 172);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(245, 245, 245, 0.5);
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            background-color: #f518c5;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #f518c5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #ff5be9;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #ff3f9d;
+        }
+
+        fieldset {
+            border: none;
+            padding: 10px;
+            background-color: #ddaefa;
+            border-radius: 10px;
+        }
+
+        .foto-preview {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+
+<h1>Workshop de Desenvolvimento Web</h1>
+          
+<p>O Workshop de Desenvolvimento Web é um evento interativo destinado a estudantes, profissionais e entusiastas que desejam aprimorar suas habilidades em tecnologias de programação web. O workshop abordará temas fundamentais, como HTML, CSS, JavaScript e PHP, conduzidos por especialistas da área.<br><br>
+
+<strong>Objetivo do Formulário:</strong>  O objetivo do formulário de pesquisa é selecionar os temas disponíveis para o workshop. Os participantes podem votar nos tópicos que mais desejam ver abordados, e o tema mais votado será o foco principal do evento. Isso garante que o conteúdo seja relevante e alinhado às expectativas do público.
+<br><br>
+</p>
+          <img src=https://blog.4linux.com.br/wp-content/uploads/2018/02/Curso-do-desenvolvimento-web.jpg width= "400" height= "200" >
+
+<form>
+    <fieldset>
+    <label for="pesquisa">Pesquise um tópico:</label>
+            <input type="text" id="pesquisa" name="pesquisa" 
+                   placeholder="Digite um tópico" 
+                   list="sugestoes" required>
+
+            <datalist id="sugestoes">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="PHP">
+            </datalist>
+
+            <button type="submit">Buscar</button>
+
+  </fieldset>
+  </form>
+</body>
+
+</html>
