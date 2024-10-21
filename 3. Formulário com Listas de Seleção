@@ -11,6 +11,15 @@
 
 <body>
   <style>
+       p{
+        color: #8c5ca1;
+    }
+    
+     h1 {
+      color: #f518c5;
+      font-size: 30px;
+      
+    }
 
         body {
             font-family: Arial, sans-serif;
@@ -76,10 +85,16 @@
         }
     </style>
 
-        <legend> Preferências de Viagem </legend>
+        <legend> Preferências de Viagem </legend><br>
 
           <img src= https://www.seumochilao.com.br/wp-content/uploads/2019/05/promocoes.jpg alt= "viagem" width= "400" height= "200" >
 <form>
+
+    <h1>Bem-vindo ao Formulário de Viagens!</h1>
+
+<p>Estamos empolgados em ajudá-lo a planejar sua próxima aventura. Este formulário foi criado para coletar informações essenciais sobre sua viagem, garantindo que possamos atender às suas necessidades de forma eficaz. Por favor, preencha todos os campos com atenção, para que possamos oferecer as melhores opções de transporte, hospedagem e atividades. Agradecemos sua colaboração e estamos ansiosos para tornar sua experiência inesquecível!</p>
+
+
  <fieldset>
 <label>               Destino:</label>
     <select name="destino">
