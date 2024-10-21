@@ -10,17 +10,22 @@
 
 <body>
 <style>
-
-    h1 {
-      color: #fff;
+    p{
+        color: #BE398D
+    }
+    
+     h1 {
+      color: #f518c5;
       font-size: 30px;
       
     }
+    
   h2 {
-      color: #fff;
+      color: #f518c5;
       font-size: 20px;
       
     }
+      
     body {
             font-family: Arial, sans-serif;
             background-color: #f3d9ed;
@@ -57,7 +62,7 @@
         input[type="text"],
         input[type="email"],
         textarea {
-            width: 100%;
+            width: 96%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -110,10 +115,11 @@
 
 <h1>Programa de Recompensas "Fidelidade Total"</h1>
           
-<p>O Programa de Recompensas "Fidelidade Total" é uma iniciativa de uma rede de lojas de varejo que visa incentivar a fidelidade dos clientes. Ao se inscrever, os clientes podem acumular pontos a cada compra, que podem ser trocados por descontos e produtos exclusivos.
-
+<p>O Programa de Recompensas "Fidelidade Total" é uma iniciativa de uma rede de lojas de varejo que visa incentivar a fidelidade dos clientes. Ao se inscrever, os clientes podem acumular pontos a cada compra, que podem ser trocados por descontos e produtos exclusivos.</p>
+    
 <h2>Como Funciona:</h2>
-
+    
+<p>
 <strong>Inscrição:</strong> Os clientes são convidados a se inscrever no programa preenchendo um formulário simples disponível nas lojas e no site oficial.<br><br>
 <strong>Benefícios da Inscrição:</strong>
 Acesso a ofertas exclusivas e promoções.
