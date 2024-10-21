@@ -108,8 +108,6 @@
         }
     </style>
 
-
-        <fieldset>
 <h1>Programa de Recompensas "Fidelidade Total"</h1>
           
 <p>O Programa de Recompensas "Fidelidade Total" é uma iniciativa de uma rede de lojas de varejo que visa incentivar a fidelidade dos clientes. Ao se inscrever, os clientes podem acumular pontos a cada compra, que podem ser trocados por descontos e produtos exclusivos.
@@ -126,6 +124,7 @@ Participação em sorteios mensais de prêmios.
           <img src=https://media.licdn.com/dms/image/v2/D4E12AQESX76JUa629A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1686856235879?e=2147483647&v=beta&t=x7GSOHQPLfmewog-GDQv6c2fij-YBXpb4eqR6toC5-Q width= "400" height= "200" >
 
 <form>
+  <fieldset>
     <label>Nome completo:</label>
     <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
 
