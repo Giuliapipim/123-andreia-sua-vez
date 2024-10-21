@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<style>
+
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      
+    }
+  h2 {
+      color: #fff;
+      font-size: 20px;
+      
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3d9ed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(241, 172, 172);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(245, 245, 245, 0.5);
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            background-color: #f518c5;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #f518c5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #ff5be9;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #ff3f9d;
+        }
+
+        fieldset {
+            border: none;
+            padding: 10px;
+            background-color: #ddaefa;
+            border-radius: 10px;
+        }
+
+        .foto-preview {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+        <fieldset>
+<h1>Programa de Recompensas "Fidelidade Total"</h1>
+          
+<p>O Programa de Recompensas "Fidelidade Total" é uma iniciativa de uma rede de lojas de varejo que visa incentivar a fidelidade dos clientes. Ao se inscrever, os clientes podem acumular pontos a cada compra, que podem ser trocados por descontos e produtos exclusivos.
+
+<h2>Como Funciona:</h2>
+
+<strong>Inscrição:</strong> Os clientes são convidados a se inscrever no programa preenchendo um formulário simples disponível nas lojas e no site oficial.<br><br>
+<strong>Benefícios da Inscrição:</strong>
+Acesso a ofertas exclusivas e promoções.
+Acúmulo de pontos em cada compra realizada.
+Participação em sorteios mensais de prêmios.
+<br><br>
+</p>
+          <img src=https://media.licdn.com/dms/image/v2/D4E12AQESX76JUa629A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1686856235879?e=2147483647&v=beta&t=x7GSOHQPLfmewog-GDQv6c2fij-YBXpb4eqR6toC5-Q width= "400" height= "200" >
+
+<form>
+    <label>Nome completo:</label>
+    <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
+
+    <label>E-mail:</label>
+    <input type="email" name="emailpessoal" placeholder="Digite aqui seu e-mail" required><br><br>
+
+    <input type="hidden" name="usuario" value="user123">
+    
+    <button type="submit">Enviar</button><br><br>
+
+  </fieldset>
+  </form>
+</body>
+
+</html>
