@@ -103,8 +103,6 @@
         }
     </style>
 
-
-        <fieldset>
         <legend> Formulário de Inscrição para Evento </legend>
 <h1>Inscrição Online - Festival de Criatividade 2024
 🌟 Bem-vindo ao Festival de Criatividade 2024! 🌟</h1>
@@ -120,6 +118,7 @@ Prepare-se para um final de semana repleto de aprendizado, inspiração e muita 
           <img src= https://forbes.com.br/wp-content/uploads/2024/05/bv-rio2c_maio25.jpg alt= "foto_do_evento_de_criatividade" width= "400" height= "200" >
 
 <form>
+ <fieldset>
     <label>Nome completo:</label>
     <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
 
