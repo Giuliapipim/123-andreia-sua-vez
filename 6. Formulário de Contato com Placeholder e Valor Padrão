@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<style>
+
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3d9ed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(241, 172, 172);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(245, 245, 245, 0.5);
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            background-color: #f518c5;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #f518c5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #ff5be9;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #ff3f9d;
+        }
+
+        fieldset {
+            border: none;
+            padding: 10px;
+            background-color: #ddaefa;
+            border-radius: 10px;
+        }
+
+        .foto-preview {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+        <fieldset>
+<h1>Centro de Bem-Estar Vida Plena</h1>
+<p><strong>
+O Centro de Bem-Estar Vida Plena é um espaço dedicado à saúde mental e física, oferecendo serviços como terapia, yoga, meditação e workshops sobre bem-estar. O centro deseja facilitar a comunicação com seus clientes e interessados, permitindo que eles tirem dúvidas, agendem consultas e enviem sugestões.</strong>
+<br><br>
+
+<strong>Objetivo do Formulário de Contato:</strong> O formulário de contato online serve para que os usuários possam entrar em contato com o centro para diversos fins, como:
+<br><br>
+-Solicitar informações sobre os serviços oferecidos.<br><br>
+-Agendar uma sessão de terapia ou aula de yoga.<br><br>
+-Fazer sugestões para novos workshops ou eventos.<br><br>
+-Reportar dúvidas ou problemas relacionados aos serviços.
+  <br>
+</p>
+          <img src= data:image/jpeg;base64,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 width= "400" height= "200" >
+
+<form>
+    <label>Nome completo:</label>
+    <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
+
+    <label>E-mail:</label>
+    <input type="email" name="emailpessoal" placeholder="Digite aqui seu e-mail" required><br><br>
+
+     
+    <label>Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx" oninput="applyMask(event)" required>
+
+    <label>Assunto:</label>
+    <textarea id="assunto" name="assunto" rows="5" required placeholder="Digite aqui o assunto"></textarea>
+  
+    <button type="submit">Enviar</button><br><br>
+    <button type="reset">Limpar</button>
+  
+  </fieldset>
+  </form>
+</body>
+
+</html>
