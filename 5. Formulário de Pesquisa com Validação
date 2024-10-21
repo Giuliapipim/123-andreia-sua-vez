@@ -103,8 +103,6 @@
         }
     </style>
 
-
-        <fieldset>
 <h1>Pesquisa de Satisfação do Evento "Festival de Criatividade"</h1>
 <p>
 <strong>Contexto:</strong> O "Festival de Criatividade" é um evento anual que reúne artistas, criadores e entusiastas de diversas áreas, como arte, tecnologia e gastronomia. Após o evento, a equipe organizadora deseja coletar feedback dos participantes para melhorar as edições futuras e entender melhor o perfil do público.
@@ -115,6 +113,7 @@
           <img src= https://forbes.com.br/wp-content/uploads/2024/05/bv-rio2c_maio25.jpg alt= "foto_do_evento_de_criatividade" width= "400" height= "200" >
 
 <form>
+ <fieldset>
     <label>Nome completo:</label>
     <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
 
