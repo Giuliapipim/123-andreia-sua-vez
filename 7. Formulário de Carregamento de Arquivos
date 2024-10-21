@@ -11,16 +11,22 @@
 <body>
 <style>
 
-    h1 {
-      color: #fff;
+     p{
+        color: #8c5ca1;
+    }
+    
+     h1 {
+      color: #f518c5;
       font-size: 30px;
       
     }
+    
   h2 {
-      color: #fff;
+      color: #f518c5;
       font-size: 20px;
       
     }
+      
     body {
             font-family: Arial, sans-serif;
             background-color: #f3d9ed;
@@ -106,27 +112,29 @@
             border-radius: 10px;
             margin-bottom: 15px;
         }
+ 
     </style>
 
 <h1>Concurso de Fotografia "Olhares do Mundo"</h1>
           
-<p><strong>
-O Concurso de Fotografia "Olhares do Mundo" é uma competição anual destinada a fotógrafos amadores e profissionais. O objetivo do concurso é celebrar a beleza e a diversidade do nosso planeta através da fotografia. Os participantes são convidados a enviar suas melhores imagens capturadas em qualquer lugar do mundo, desde paisagens deslumbrantes até momentos emocionantes do cotidiano.</strong>
+<p>
+O Concurso de Fotografia "Olhares do Mundo" é uma competição anual destinada a fotógrafos amadores e profissionais. O objetivo do concurso é celebrar a beleza e a diversidade do nosso planeta através da fotografia. Os participantes são convidados a enviar suas melhores imagens capturadas em qualquer lugar do mundo, desde paisagens deslumbrantes até momentos emocionantes do cotidiano.</p>
 
 <h2>Como Funciona:</h2>
-
+<p>
 <strong>Inscrição:</strong> Os fotógrafos devem preencher o formulário de inscrição disponível no site do concurso.
-<br><br>
+<br></p>
 
-<strong>Requisitos de Participação:</strong>
-<br><br>
+<p><strong>Requisitos de Participação:</strong>
+
 Cada participante pode enviar até 3 fotografias.
 As imagens devem ser enviadas em formato JPEG ou PNG.
 O nome e o e-mail do participante são necessários para garantir que a comunicação sobre os resultados chegue ao destinatário certo.<br><br>
-<strong>Data Limite:</strong> O prazo para submissão das fotografias é até o dia 30 de abril. As inscrições enviadas após essa data não serão consideradas.
-<br><br>
-<strong>Premiação:</strong> As melhores fotos serão selecionadas por um painel de jurados especializados, e os vencedores serão anunciados durante a cerimônia de premiação em maio. Prêmios incluem câmeras fotográficas, equipamentos de fotografia e certificados.
-<br><br>
+<strong>Data Limite:</strong> O prazo para submissão das fotografias é até o dia 30 de abril. As inscrições enviadas após essa data não serão consideradas.</p>
+
+<p><strong>Premiação:</strong> As melhores fotos serão selecionadas por um painel de jurados especializados, e os vencedores serão anunciados durante a cerimônia de premiação em maio. Prêmios incluem câmeras fotográficas, equipamentos de fotografia e certificados.</p>
+
+    <p>
 <strong>Utilização do Formulário:</strong> Os participantes devem utilizar o formulário de carregamento de arquivos para enviar suas fotografias. O formulário pede o nome e o e-mail do fotógrafo, além da imagem que deseja submeter ao concurso. É importante que as imagens sejam de alta qualidade, pois serão julgadas por critérios como criatividade, técnica e impacto visual.
 <br><br>
 </p>
