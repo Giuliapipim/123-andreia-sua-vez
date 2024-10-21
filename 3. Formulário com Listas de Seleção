@@ -75,14 +75,12 @@
             display: none;
         }
     </style>
-  </style>
 
-        <fieldset>
-        <legend> Preferências
-de Viagem </legend>
+        <legend> Preferências de Viagem </legend>
 
           <img src= https://www.seumochilao.com.br/wp-content/uploads/2019/05/promocoes.jpg alt= "viagem" width= "400" height= "200" >
-
+<form>
+ <fieldset>
 <label>               Destino:</label>
     <select name="destino">
       <option>        Japão</option>
@@ -110,6 +108,7 @@ de Viagem </legend>
     <input type="date" name="datadevolta" required><br>
 <br>
     <input type="submit" value="Enviar">
+ </fieldset>
   </form>
 </body>
 
