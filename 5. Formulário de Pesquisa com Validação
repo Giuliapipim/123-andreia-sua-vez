@@ -11,11 +11,20 @@
 <body>
 <style>
 
-    h1 {
-      color: #fff;
+    p{
+        color: #8c5ca1;
+    }
+    
+     h1 {
+      color: #f518c5;
       font-size: 30px;
       
     }
+    
+  h2 {
+      color: #f518c5;
+      font-size: 20px;
+  }
     body {
             font-family: Arial, sans-serif;
             background-color: #f3d9ed;
