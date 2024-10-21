@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<style>
+
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      
+    }
+  h2 {
+      color: #fff;
+      font-size: 20px;
+      
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3d9ed;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: rgb(241, 172, 172);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(245, 245, 245, 0.5);
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            background-color: #f518c5;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #f518c5;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #ff5be9;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #ff3f9d;
+        }
+
+        fieldset {
+            border: none;
+            padding: 10px;
+            background-color: #ddaefa;
+            border-radius: 10px;
+        }
+
+        .foto-preview {
+            width: 100%;
+            height: 200px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+        <fieldset>
+<h1>Concurso de Fotografia "Olhares do Mundo"</h1>
+          
+<p><strong>
+O Concurso de Fotografia "Olhares do Mundo" é uma competição anual destinada a fotógrafos amadores e profissionais. O objetivo do concurso é celebrar a beleza e a diversidade do nosso planeta através da fotografia. Os participantes são convidados a enviar suas melhores imagens capturadas em qualquer lugar do mundo, desde paisagens deslumbrantes até momentos emocionantes do cotidiano.</strong>
+
+<h2>Como Funciona:</h2>
+
+<strong>Inscrição:</strong> Os fotógrafos devem preencher o formulário de inscrição disponível no site do concurso.
+<br><br>
+
+<strong>Requisitos de Participação:</strong>
+<br><br>
+Cada participante pode enviar até 3 fotografias.
+As imagens devem ser enviadas em formato JPEG ou PNG.
+O nome e o e-mail do participante são necessários para garantir que a comunicação sobre os resultados chegue ao destinatário certo.<br><br>
+<strong>Data Limite:</strong> O prazo para submissão das fotografias é até o dia 30 de abril. As inscrições enviadas após essa data não serão consideradas.
+<br><br>
+<strong>Premiação:</strong> As melhores fotos serão selecionadas por um painel de jurados especializados, e os vencedores serão anunciados durante a cerimônia de premiação em maio. Prêmios incluem câmeras fotográficas, equipamentos de fotografia e certificados.
+<br><br>
+<strong>Utilização do Formulário:</strong> Os participantes devem utilizar o formulário de carregamento de arquivos para enviar suas fotografias. O formulário pede o nome e o e-mail do fotógrafo, além da imagem que deseja submeter ao concurso. É importante que as imagens sejam de alta qualidade, pois serão julgadas por critérios como criatividade, técnica e impacto visual.
+<br><br>
+</p>
+          <img src= data:image/jpeg;base64,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 width= "400" height= "200" >
+
+<form>
+    <label>Nome completo:</label>
+    <input type="text" name="nome" placeholder="Digite aqui seu nome" required><br><br>
+
+    <label>E-mail:</label>
+    <input type="email" name="emailpessoal" placeholder="Digite aqui seu e-mail" required><br><br>
+
+     
+    <label for="arquivo">Carregar arquivo:</label>
+            <input type="file" id="arquivo" name="arquivo" accept="image/*" required><br><br>
+
+    <button type="submit">Enviar</button><br><br>
+
+  </fieldset>
+  </form>
+</body>
+
+</html>
